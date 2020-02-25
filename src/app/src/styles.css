@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+.input-group input {
+	position: relative;
+}
+
+.input-group #cal_d {
+	position: absolute;
+	z-index: 99;
+	right: 1px;
+	height: 30px;
+	padding: 0 6px;
+	background: #ddd;
+}
+
+.input-group #date_d {
+	width: 100%
+}
+
+ngb-datepicker-month-view .bg-primary {
+	background: #337ab7;
+	color: #333;
+}
+
+.bg-primary.ng-star-inserted {
+	color: #333;
+}
+
+.keyclass {
+	cursor: pointer;
+	color: #16478d;
+}
+
+button.calendar, button.calendar:active {
+    padding: 14px;
+    margin-left: auto;
+}
